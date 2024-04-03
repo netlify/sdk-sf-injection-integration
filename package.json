@@ -1,0 +1,16 @@
+{
+  "name": "sdk-sf-injection-integration",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "netlify-integration build -a",
+    "dev": "netlify-integration dev -a",
+    "preview": "netlify-integration preview"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0",
+    "@netlify/sdk": "1.36.1",
+    "typescript": "^5.4.3"
+  }
+}
