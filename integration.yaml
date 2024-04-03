@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: sdk-sf-injection-integration
+  name: sdk-sf-injection-integration
+  description: It has some examples for injecting functions
+  integrationLevel: site
+  scopes:
+    site: ["read", "write"]
